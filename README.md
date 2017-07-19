@@ -1,8 +1,7 @@
 # CS598: Theory and Practise of Data Cleaning Final Project
 ## End-to-End Data Cleaning Workflow
 
-##### For MCS-DS
-##### Summer 2017
+##### For MCS-DS class in Summer 2017
 
 ## Team
 
@@ -24,7 +23,8 @@ Here we describe the structure and content of the dataset and quality issues tha
 
 In this hands-on part of the project, we use [OpenRefine](openrefine.org) to clean the chosen dataset — as much as needed for the use case. We also document the result of this phase, both in narrative form and with supplemental information (e.g., which columns were cleaned and what changes were made?). We also quantify the results of our efforts along with provenance information from OpenRefine. 
 
-#### *Optional* We may use other tools like R, Python for data cleaning tasks that couldn't be completed by OpenRefine.
+#### *Optional* 
+We may use other tools like R, Python for data cleaning tasks that couldn't be completed by OpenRefine.
 
 ### 3. Developing a relational database schema
 
@@ -61,11 +61,12 @@ A Dish is a broad category that covers some number of MenuItems. Each dish has a
 
 What are some things we can look at with this dataset?
 
-*How has the median price of restaurant dishes changed over time?* Are there particular types of dishes (alcoholic beverages, seafood, breakfast food) whose price changes have been greater than or less than the average change over time?
-*Can we predict anything about a dish's price based on its name or description?*
-- There's been some work on how the words used in advertisements for potato chips are reflective of their price; is that also true of the words used in the name of the food? 
-- Are, for example, French or Italian words more likely to predict a more expensive dish?
+- *How has the median price of restaurant dishes changed over time?* 
+Are there particular types of dishes (alcoholic beverages, seafood, breakfast food) whose price changes have been greater than or less than the average change over time?
+- *Can we predict anything about a dish's price based on its name or description?*
+	- There's been some work on how the words used in advertisements for potato chips are reflective of their price; is that also true of the words used in the name of the food? 
+	- Are, for example, French or Italian words more likely to predict a more expensive dish?
 
 ### Data Acknowledgments
 
-This dataset was downloaded from the [New York Public Library's What's on the menu?] (http://menus.nypl.org/) page. The What's on the menu? data files are updated twice monthly, so expect this dataset to go through multiple versions. The version we used was released on June 17, 2017, here's a [link to its backup.](https://d1b10bmlvqabco.cloudfront.net/attach/j29ig2ca7rxkr/iz0l1mgxmqg6g9/j58nqqqyoly2/NYPL_Dataset.zip) 
+This dataset was downloaded from the [New York Public Library's What's on the menu?](http://menus.nypl.org/) page. The What's on the menu? data files are updated twice monthly, so expect this dataset to go through multiple versions. The version we used was released on June 17, 2017, here's a [link to its backup.](https://d1b10bmlvqabco.cloudfront.net/attach/j29ig2ca7rxkr/iz0l1mgxmqg6g9/j58nqqqyoly2/NYPL_Dataset.zip) 
