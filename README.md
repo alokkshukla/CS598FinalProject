@@ -1,4 +1,4 @@
-# CS598: Theory and Practise of Data Cleaning Final Project
+# CS598: Theory and Practise of Data Cleaning - Final Project
 ## End-to-End Data Cleaning Workflow
 
 ##### For MCS-DS class in Summer 2017
@@ -32,8 +32,8 @@ We identify the *logical integrity constraints* (ICs) here after loading the dat
 
 ### 4. Creating a workflow model
 
-Here we used [YesWorkllow](https://github.com/yesworkflow-org) to create a workflow model of entire project: what are the key inputs and outputs of workflow? What are the dependencies?
-We also create a visual version of your workflow using the YesWorkflow tool.
+Here we used [YesWorkflow](https://github.com/yesworkflow-org) to create a workflow model of entire project: what are the key inputs and outputs of workflow? What are the dependencies?
+We also create a visual version of our workflow using the YesWorkflow tool. 
 
 ## The Data
 
