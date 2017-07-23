@@ -67,6 +67,27 @@ Are there particular types of dishes (alcoholic beverages, seafood, breakfast fo
 	- There's been some work on how the words used in advertisements for potato chips are reflective of their price; is that also true of the words used in the name of the food? 
 	- Are, for example, French or Italian words more likely to predict a more expensive dish?
 
-### Data Acknowledgments
+## Data Acknowledgments
 
 This dataset was downloaded from the [New York Public Library's What's on the menu?](http://menus.nypl.org/) page. The What's on the menu? data files are updated twice monthly, so expect this dataset to go through multiple versions. The version we used was released on June 17, 2017, here's a [link to its backup.](https://d1b10bmlvqabco.cloudfront.net/attach/j29ig2ca7rxkr/iz0l1mgxmqg6g9/j58nqqqyoly2/NYPL_Dataset.zip) 
+
+## References
+
+- NYPL Labs, What's on the Menu? <http://menus.nypl.org/about>
+- “What’s on the Menu?”- From Software to Funware at The New York Public Library IMLS Project Number: LG-46-11-0080-11 <https://www.imls.gov/assets/1/AssetManager/LG-46-11-0080-11_FinalReport.pdf>
+- What IS on the menu? More work with NYPL's open data, Part One <http://trevormunoz.com/notebook/2013/08/08/what-is-on-the-menu-more-work-with-nypl-open-data-part-one.html>
+- Refining the Problem. More work with NYPL's open data, Part Two <http://trevormunoz.com/notebook/2013/08/19/refining-the-problem-more-work-with-nypl-open-data-part-two.html>
+- Borrow a cup of sugar? Or your data analysis tools? More work with NYPL's open data, Part Three <http://trevormunoz.com/notebook/2014/01/10/borrowing-data-science-tools-more-work-with-nypl-open-data-part-three.html>
+- Curating Menus <http://curatingmenus.org>
+- Menu Journeys <http://people.ischool.berkeley.edu/~carlos/menujourneys/> <http://courses.ischool.berkeley.edu/i247/s15/reports/MenuJourneys_CarloLasaLeungSnipes.pdf>
+- What's on the Menu ? <https://50.neh.gov/projects/whats-on-the-menu>
+- Organizing historical menus: a data curation experiment <http://mith.umd.edu/taxonomizing-historical-menus-a-data-curation-project/>
+- A Fun Gastronomical Dataset: What’s on the Menu? <https://www.r-bloggers.com/a-fun-gastronomical-dataset-whats-on-the-menu/>
+- The 5 Star Experience <http://program.dh.ucla.edu/projects/2015/nydishes/data/index.html>
+- Introduction to OpenRefine <http://dh.prattsils.org/blog/resources/skillshares/introduction-to-openrefine/>
+- Crowdsourcing the New York Public Library's Menu Collection <https://www.hastac.org/blogs/ecornell1/2011/11/20/crowdsourcing-new-york-public-librarys-menu-collection>
+- Digital Praxis Seminar Fall 2014 – Spring 2015 <https://dhpraxis14.commons.gc.cuny.edu/2014/11/17/food-viz/>
+- Historic Menus Go Digital, Tapping Into New Yorkers’ Food Memories <http://observer.com/2015/03/whats-on-the-menu-historic-menus-go-digital-tap-into-new-yorkers-food-memories/>
+
+
+
