@@ -1,0 +1,18 @@
+sqllite3 ../dish.db
+
+-- importing the csv 
+.mode csv
+.import ../Dish-Clean.csv dishclean
+.import ../Menu-csv-2.csv menuclean
+.import ../MenuItem.csv item
+.import ../MenuPage.csv page
+
+--displaying the schema
+.schema dishclean
+.schema menuclean
+
+
+-- only if you want sql queries to create the tables in an empty database
+.output ../dishclean.sql
+.dump
+
