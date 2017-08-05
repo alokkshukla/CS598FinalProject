@@ -1,0 +1,112 @@
+/* Constraints where i deleted columns, i did it directly through the SQLite studio GUI,
+ did not write any queries as it is cumbersome to delete columns in SQLite using queries */
+
+
+/* DISH */
+
+select id, count(id) as cnt
+from dish
+group by id
+having count(id)  > 1;
+
+
+select * from dish where id is NULL;
+
+select * from dish
+where menus_appeared is NULL or times_appeared is NULL ;
+
+select * from dish
+where cast(first_appeared as year) > cast(last_appeared as year) and last_appeared <> '0';
+
+
+select * from dish where (first_appeared between '1851' and '2012');
+select * from dish where (lasst_appeared between '1851' and '2012');
+
+select * from dish where lowest_price > highest_price;
+
+
+/* MENU */
+
+select id, count(id) as cnt
+from menu
+group by id
+having count(id)  > 1;
+
+select * from menu where id is NULL;
+
+select * from menu where sponsor_clean is 'NULL' or '';
+select * from menu where page_count is 'NULL' or '';
+
+
+
+/* MENU PAGE */
+
+select id, count(id) as cnt
+from page
+group by id
+having count(id)  > 1;
+
+
+select * from page where id is NULL;
+
+select * from page where page_number  = '0';
+select * from page where page_number  is NULL;
+
+
+select * from page where created_at > updated_at;
+
+
+/* ITEM */
+
+select id, count(id) as cnt
+from item
+group by id
+having count(id)  > 1;
+
+select * from item where id is NULL;
+
+select * from item where updated_at < created_at;
+
+select * from item where xpos < 0 and xpos > 1;
+select * from item where ypos < 0 and xpos > 1;
+
+
+/* Queries to drop description column in the dish table */
+
+CREATE TABLE sqlitestudio_temp_table AS SELECT *
+                                          FROM dish;
+
+DROP TABLE dish;
+
+CREATE TABLE dish (
+    id             INTEGER PRIMARY KEY,
+    name           TEXT,
+    menus_appeared TEXT,
+    times_appeared TEXT,
+    first_appeared INTEGER,
+    last_appeared  INTEGER,
+    lowest_price   DECIMAL,
+    highest_price  DECIMAL
+);
+
+INSERT INTO dish (
+                     id,
+                     name,
+                     menus_appeared,
+                     times_appeared,
+                     first_appeared,
+                     last_appeared,
+                     lowest_price,
+                     highest_price
+                 )
+                 SELECT id,
+                        name,
+                        menus_appeared,
+                        times_appeared,
+                        first_appeared,
+                        last_appeared,
+                        lowest_price,
+                        highest_price
+                   FROM sqlitestudio_temp_table;
+
+DROP TABLE sqlitestudio_temp_table;
