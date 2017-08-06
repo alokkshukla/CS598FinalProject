@@ -1,7 +1,10 @@
 # CS598: Theory and Practise of Data Cleaning - Final Project
 ## End-to-End Data Cleaning Workflow
 
+
+
 ##### For MCS-DS class in Summer 2017
+###### Please note: This repository uses Git LFS to deal with large data files; please set it up.
 
 ## Team
 
