@@ -79,7 +79,7 @@ Are there particular types of dishes (alcoholic beverages, seafood, breakfast fo
 
 This dataset was downloaded from the [New York Public Library's What's on the menu?](http://menus.nypl.org/) page. The What's on the menu? data files are updated twice monthly, so expect this dataset to go through multiple versions. The version we used was released on June 17, 2017, here's a [link to its backup.](https://d1b10bmlvqabco.cloudfront.net/attach/j29ig2ca7rxkr/iz0l1mgxmqg6g9/j58nqqqyoly2/NYPL_Dataset.zip) 
 
-<!--
+
 ## References
 
 - NYPL Labs, What's on the Menu? <http://menus.nypl.org/about>
@@ -97,7 +97,7 @@ This dataset was downloaded from the [New York Public Library's What's on the me
 - Crowdsourcing the New York Public Library's Menu Collection <https://www.hastac.org/blogs/ecornell1/2011/11/20/crowdsourcing-new-york-public-librarys-menu-collection>
 - Digital Praxis Seminar Fall 2014 – Spring 2015 <https://dhpraxis14.commons.gc.cuny.edu/2014/11/17/food-viz/>
 - Historic Menus Go Digital, Tapping Into New Yorkers’ Food Memories <http://observer.com/2015/03/whats-on-the-menu-historic-menus-go-digital-tap-into-new-yorkers-food-memories/>
--->
+
 
 
 
