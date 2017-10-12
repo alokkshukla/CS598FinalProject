@@ -79,6 +79,15 @@ Are there particular types of dishes (alcoholic beverages, seafood, breakfast fo
 
 This dataset was downloaded from the [New York Public Library's What's on the menu?](http://menus.nypl.org/) page. The What's on the menu? data files are updated twice monthly, so expect this dataset to go through multiple versions. The version we used was released on June 17, 2017, here's a [link to its backup.](https://d1b10bmlvqabco.cloudfront.net/attach/j29ig2ca7rxkr/iz0l1mgxmqg6g9/j58nqqqyoly2/NYPL_Dataset.zip) 
 
+## Complete Data Workflow
+
+Please browse the [GitHub](https://github.com/alokkshukla/CS598FinalProject/) for viewing procedures, observations and results of each of metioned steps.
+
+## Final Report
+
+Final report is available for download at this [link.](https://github.com/alokkshukla/CS598FinalProject/blob/master/Report/Report.pdf)
+
+<embed src="https://github.com/alokkshukla/CS598FinalProject/blob/master/Report/Report.pdf" width="500" height="375" type='application/pdf'>
 
 ## References
 
