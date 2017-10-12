@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CS598 Final Project
+title: End-to-End Data Cleaning Workflow
 ---
 
 # CS598: Theory and Practise of Data Cleaning - Final Project
