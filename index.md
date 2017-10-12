@@ -85,9 +85,10 @@ Please browse the [GitHub](https://github.com/alokkshukla/CS598FinalProject/) fo
 
 ## Final Report
 
-Final report is available for download at this [link.](https://github.com/alokkshukla/CS598FinalProject/blob/master/Report/Report.pdf)
+Final report is available for download at this [link.](https://drive.google.com/uc?id=0B23rCiprGl1ceVVBSHVtZDI2d00&export=download)
 
-<embed src="https://github.com/alokkshukla/CS598FinalProject/blob/master/Report/Report.pdf" width="500" height="375" type='application/pdf'>
+<iframe src="http://docs.google.com/gview?url=https://drive.google.com/uc?id=0B23rCiprGl1ceVVBSHVtZDI2d00&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
+
 
 ## References
 
